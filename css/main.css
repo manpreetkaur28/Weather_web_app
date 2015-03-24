@@ -1,0 +1,49 @@
+h1 {
+	margin-top: 150px;
+	text-align: center;
+	color: #696969;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: aladin;
+	opacity: 1;
+}
+h1:hover{
+	opacity: 0.60;
+	color: #6B0E10;
+}
+#searchButton {
+	text-align: center;
+	background-color: #696969;
+	color: #FFFFFF;
+	font-family: Sans-serif;
+	opacity: 1;
+}
+#searchButton:hover {
+	opacity: 0.60;
+}
+#search {
+	margin-left: 35%;
+}
+#searchCity{
+	width: 200px;
+	
+}
+#forecast {
+	margin-right: 13%;
+	margin-left: 13%;
+}
+.description {
+	text-align: center;
+	color: #696969;
+	text-transform: uppercase;
+	opacity: 1;
+	font-family: aladin;
+	font-style: normal;
+	font-weight: 400;
+}
+.description:hover {
+	opacity: 0.6;
+	color: #6B0E10;
+}
+
