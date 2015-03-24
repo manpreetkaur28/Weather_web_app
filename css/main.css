@@ -2,10 +2,9 @@ h1 {
 	margin-top: 150px;
 	text-align: center;
 	color: #696969;
-	font-style: normal;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-family: aladin;
+	font: normal 52px 'Playball', cursive;
 	opacity: 1;
 }
 h1:hover{
@@ -16,7 +15,7 @@ h1:hover{
 	text-align: center;
 	background-color: #696969;
 	color: #FFFFFF;
-	font-family: Sans-serif;
+	font-family:  'Playball', cursive;
 	opacity: 1;
 }
 #searchButton:hover {
@@ -38,8 +37,7 @@ h1:hover{
 	color: #696969;
 	text-transform: uppercase;
 	opacity: 1;
-	font-family: aladin;
-	font-style: normal;
+	font-family: normal 'Playball', cursive;
 	font-weight: 400;
 }
 .description:hover {
@@ -47,3 +45,13 @@ h1:hover{
 	color: #6B0E10;
 }
 
+#imgdiv {
+	margin-left: 10%;
+}
+.column {
+	text-align: center;
+	text-transform: capitalize;
+	color: #6B0E10;
+	font-family: Playball, cursive;
+	font-style: normal;
+}
