@@ -18,7 +18,7 @@
         
       </head>
       
-      <body background="../images/weather_image1.jpg" onLoad="getLocation()"  >
+      <body background="../images/weather_image1.jpg" onLoad="getLocation()">
       
            <div id="wrapper">
            
@@ -32,7 +32,7 @@
                
                <input autofocus type="search" id="searchCity" placeholder="Enter a name of city or country">
                
-               <input type="submit" id="searchButton" value="Search"/>
+               <input type="submit" id="searchButton" onClick="getLocation()"value="Search"/>
                
                </section>
                
@@ -47,7 +47,7 @@
                                       <h3>City/Country </h3>
                                   </th>
                                   <th width="20%" class="description">
-                                       <h3>Temperature</h3>
+                                       <h3>Temperature(ªF)</h3>
                                   </th>
                                   <th width="22%" class="description">
                                        <h3>Weather Desc</h3>
@@ -69,7 +69,7 @@
                                        <span id="location"> </span>
                                    </td>
                                    <td class="column">
-                                       <span id="temp">ªF</span>  
+                                       <span id="temp"></span>  
                                    </td>
                                     <td class="column">
                                         <span id="desc"></span>
